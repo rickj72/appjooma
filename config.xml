@@ -24,7 +24,8 @@
     <gap:plugin name="cordova-plugin-network-information" version="1.0.1" source="npm" />
     <gap:plugin name="cordova-plugin-splashscreen" version="2.1.0" source="npm" />
     <gap:plugin name="cordova-plugin-whitelist" version="1.0.0" source="npm" />
-    <gap:plugin name="ionic-plugin-keyboard" version="1.0.7" source="npm" />	
+    <gap:plugin name="ionic-plugin-keyboard" version="1.0.7" source="npm" />
+    <plugin name="org.apache.cordova.geolocation" spec="0.3.12" source="pgb" />
 
 	<gap:config-file platform="android" parent="/manifest">
 		<application android:debuggable="true" />
